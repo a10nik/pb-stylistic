@@ -14,6 +14,7 @@ dependencies:
 - ipywidgets=6.0.0=py36_0
 - jedi=0.10.2=py36_2
 - jinja2=2.9.6=py36_0
+- joblib=0.11=py36_0
 - jpeg=9b=vc14_0
 - jsonschema=2.6.0=py36_0
 - jupyter=1.0.0=py36_3
@@ -45,6 +46,7 @@ dependencies:
 - qt=5.6.2=vc14_6
 - qtconsole=4.3.0=py36_0
 - requests=2.14.2=py36_0
+- scipy=0.19.1=np113py36_0
 - setuptools=27.2.0=py36_1
 - simplegeneric=0.8.1=py36_1
 - sip=4.18=py36_0
@@ -64,8 +66,10 @@ dependencies:
   - jupyter-client==5.1.0
   - jupyter-console==5.1.0
   - jupyter-core==4.3.0
+  - metric-learn==0.3.0
   - prompt-toolkit==1.0.14
   - pymorphy2-dicts==2.4.393442.3710985
   - pymystem3==0.1.5
+  - scikit-learn==0.19.0
 prefix: C:\Users\10nikov\Anaconda3\envs\myenv
 
