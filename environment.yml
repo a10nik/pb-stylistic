@@ -4,6 +4,7 @@ channels:
 dependencies:
 - bleach=1.5.0=py36_0
 - colorama=0.3.9=py36_0
+- cycler=0.10.0=py36_0
 - decorator=4.1.2=py36_0
 - entrypoints=0.2.3=py36_0
 - html5lib=0.9999999=py36_0
@@ -23,10 +24,12 @@ dependencies:
 - jupyter_core=4.3.0=py36_0
 - libpng=1.6.27=vc14_0
 - markupsafe=0.23=py36_2
+- matplotlib=2.0.2=np113py36_0
 - mistune=0.7.4=py36_0
 - mkl=2017.0.3=0
 - nbconvert=5.2.1=py36_0
 - nbformat=4.3.0=py36_0
+- networkx=1.11=py36_0
 - nltk=3.2.4=py36_0
 - notebook=5.0.0=py36_0
 - numpy=1.13.1=py36_0
@@ -38,6 +41,7 @@ dependencies:
 - plotly=2.0.11=py36_0
 - prompt_toolkit=1.0.14=py36_0
 - pygments=2.2.0=py36_0
+- pyparsing=2.2.0=py36_0
 - pyqt=5.6.0=py36_2
 - python=3.6.2=0
 - python-dateutil=2.6.1=py36_0
@@ -52,6 +56,7 @@ dependencies:
 - sip=4.18=py36_0
 - six=1.10.0=py36_0
 - testpath=0.3.1=py36_0
+- tk=8.5.18=vc14_0
 - tornado=4.5.1=py36_0
 - traitlets=4.3.2=py36_0
 - vs2015_runtime=14.0.25420=0
@@ -72,5 +77,5 @@ dependencies:
   - pymorphy2-dicts==2.4.393442.3710985
   - pymystem3==0.1.5
   - scikit-learn==0.19.0
-prefix: C:\Users\10nikov\Anaconda3\envs\myenv
+prefix: C:\Users\10nikov\AppData\Local\conda\conda\envs\myenv
 
