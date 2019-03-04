@@ -1,6 +1,12 @@
-.ipynb_checkpoints
+.ipynb_checkpoints/
+.idea/
 txt/
 fb2/
 fb2.zip/
 fb2.unzipped/
 json/
+*.csv
+*.gml
+start.cmd
+stylo_config.txt
+books.db
