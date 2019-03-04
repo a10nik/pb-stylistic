@@ -1,2 +1,2 @@
-##Installation
-To run the code, download the folder with books from ttps://drive.google.com/drive/folders/1V2rO6-b9ynTZu-cVAdK1WQNrpoNIK9w6?usp=sharing and add the resulting `fb2/` folder to the project root.
+## Installation
+To run the code, download the folder with books from https://drive.google.com/drive/folders/1V2rO6-b9ynTZu-cVAdK1WQNrpoNIK9w6?usp=sharing and add the resulting `fb2/` folder to the project root.
