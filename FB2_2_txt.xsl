@@ -5,14 +5,6 @@
 
 	<xsl:template match="*">
 <!-- <xsl:variable/> -->
-<xsl:value-of select="fb:description/fb:title-info/fb:book-title"/>
-<xsl:text >&#010;</xsl:text>
-<xsl:for-each select="fb:description/fb:title-info/fb:author">	<xsl:call-template name="author"/>
-<xsl:text >&#010;</xsl:text>
-</xsl:for-each>
-<xsl:text >&#010;</xsl:text>
-
-<!-- BUILD BOOK -->
 <xsl:for-each select="fb:body[1]">
 <xsl:apply-templates/>
 </xsl:for-each>
