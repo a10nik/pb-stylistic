@@ -18,15 +18,18 @@ book_num = 0
 book_url = 'https://flibusta.appspot.com/b/'
 i = 0
 for filename in sorted(os.listdir('./fb2')):
-    i+= 1
-    if i % 100 == 0:
-        time.sleep(60)
 
     if filename.endswith('.fb2.zip'):
         fbusta_id = filename.split(".")[-3]
-    elif filename.endswith('djvu'):
-        fbusta_id = filename.split(".")[-2]
+        i+= 1
+    # elif filename.endswith('djvu'):
+    #     fbusta_id = filename.split(".")[-2]
+    else:
+        continue
 
+    if i % 100 == 0:
+        time.sleep(60)
+    
     try:
         response = requests.get(book_url+fbusta_id)
         assert response.status_code == 200
